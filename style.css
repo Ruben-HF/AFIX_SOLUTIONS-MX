@@ -1,0 +1,53 @@
+nav{
+    align-content: center;
+    background-color: black;
+    padding-block: 10px;
+    block-size: auto; 
+}
+
+.AFXWhite{
+    color: white;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.item{
+    background-color: gray;
+    margin: auto;
+    padding: 5%;
+    width: 40%;
+}
+
+.itempic{
+    background-color: gray;
+    margin: auto;
+    padding: 2%;
+    width: 60%;
+}
+
+.Industrias{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+.Soluciones{
+    background-color:blueviolet;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Contactanos{
+    background-color: bisque;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.imgmed{
+    height: 70%;
+}
