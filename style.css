@@ -13,8 +13,8 @@ nav{
     margin-left: auto;
 }
 
-.item{
-    background-color: gray;
+.itemJumbotron{
+    
     margin: auto;
     padding: 5%;
     width: 40%;
@@ -23,7 +23,7 @@ nav{
 }
 
 .itempic{
-    background-color: gray;
+    
     margin: auto;
     padding: 2%;
     width: 60%;
@@ -51,19 +51,21 @@ nav{
 }
 
 .Soluciones{
-    background-color:blueviolet;
     display: flex;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 3%;
 }
 
 .Contactanos{
-    background-color: bisque;
-    display: flex;
-    padding-left: 3%;
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 3%;
     padding-right: 3%;
+    width: 100%;
 }
 
+li{
+    list-style: none;
+}
 
 @media  (max-width: 500px) {
     .item{
